@@ -1,3 +1,12 @@
+Пример Post-запроса через Postman
+
+{
+    "cmd1": "regex",
+    "value1": "images/\\w+\\.png",
+    "cmd2": "limit",
+    "value2": "3"
+}
+
 ## Задача
 
 Усовершенствовать язык программирования и добавить команду — regex.
@@ -73,14 +82,3 @@ Found 2 errors in 1 file (checked 1 source file)
     100.43.83.137 - - [17/May/2015:16:05:53 +0000] "GET /presentations/logstash-puppetconf-2012/images/trollface.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
     
 - [ ]  Команда **mypy app.py** выполняется без ошибок.
-
-Пример Post-запроса через Postman
-
-{
-    "cmd1": "regex",
-    "value1": "images/\\w+\\.png",
-    "cmd2": "limit",
-    "value2": "3"
-}
-
-
